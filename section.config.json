@@ -1,0 +1,24 @@
+{
+    "proxychain": [
+        {
+            "name": "sigsci",
+            "image": "sigsci:latest"
+        },
+        {
+            "name": "varnish",
+            "image": "varnish:6.1.1"
+        }
+    ],
+    "environments": {
+        "Production": {
+            "origin": {
+                "address": "35.225.136.99"
+            }
+        },
+        "Development": {
+            "origin": {
+                "address": "35.225.136.99"
+            }
+        }
+    }
+}
